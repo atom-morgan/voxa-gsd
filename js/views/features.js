@@ -1,5 +1,5 @@
 TeamManager.Views.Features = Backbone.View.extend({
-	template: _.template($('#features').html()),
+	template: _.template($('.features').html()),
 
 	renderFeature: function(feature) {
 		var feature = new TeamManager.Views.Feature({model: feature});
