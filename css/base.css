@@ -1,3 +1,54 @@
-/*.voxa-logo {
-	height: 50px;
-}*/
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+}
+
+body {
+	top: 0;
+	bottom: 0;
+}
+
+.team-header {
+	text-align: center;
+}
+
+.employees-container {
+	padding-top: 7%;
+}
+
+.employee-wrapper {
+	padding-left: 15%;
+	padding-bottom: 10%;
+}
+
+.emp-picture {
+	padding-bottom: 3%;
+	width: 160px;
+	height: 170px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+}
+
+.emp-name {
+	font-size: 1.3em;
+}
+
+.emp-title {
+	font-size: 1.3em;
+}
+
+.emp-twitter {
+	padding-top: 1%;
+}
+
+.emp-twitter :hover {
+	text-decoration: none;
+}
+
+.emp-bio {
+	padding-top: 3%;
+	width: 85%;
+}

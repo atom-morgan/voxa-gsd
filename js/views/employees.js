@@ -1,5 +1,5 @@
 TeamManager.Views.Employees = Backbone.View.extend({
-	template: _.template($('#employees').html()),
+	template: _.template($('.employees').html()),
 
 	renderEmp: function(employee) {
 		var emp = new TeamManager.Views.Employee({model: employee});
