@@ -1,6 +1,6 @@
 TeamManager.Views.Feature = Backbone.View.extend({
 	tagName: 'div',
-	className: 'col-md-6 col-md-offset-3',
+	className: 'row',
 	template: _.template($('.feature').html()),
 
 	render: function() {

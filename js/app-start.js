@@ -44,22 +44,22 @@ $(function() {
 		],
 		features: [
 			{
-				"id": "1",
-				"header": "Email to Salesforce Integration",
-				"subHeader": "The subheader text for Email to Salesforce Integration.",
-				"picture": ""
+				"id": "feat-1",
+				"header": "Leverage your CRM with less work",
+				"subHeader": "Voxa <strong>automatically integrates</strong> your emails with Salesforce. Spend time focusing on <strong>your customers</strong> and closing deals - not modern day paperwork.",
+				"picture": "img/macbook.png"
 			},
 			{
-				"id": "2",
-				"header": "Natural Language Task Triggers",
-				"subHeader": "The subheader text for Natural Language Task Triggers.",
-				"picture": ""
+				"id": "feat-2",
+				"header": "Let your CRM work for you",
+				"subHeader": "Using Natural Language Task Triggers, Voxa will <strong>identify upcoming tasks</strong> so you never forget to send that email next week.",
+				"picture": "img/ipad.png"
 			},
 			{
-				"id": "3",
-				"header": "Email Analytics",
-				"subHeader": "The subheader text for Email Analytics.",
-				"picture": ""
+				"id": "feat-3",
+				"header": "Analyze your email habits",
+				"subHeader": "Average response times, email quality and length. With Voxa, email metrics are now at your disposal.",
+				"picture": "img/macbook.png"
 			}
 		]
 	});

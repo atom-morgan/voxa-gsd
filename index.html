@@ -30,6 +30,35 @@
 
 
 
+
+  <!-- Template Views for Features -->
+  <script type="text/template" class="features">
+    <div class="jumbotron">
+      <h1>Voxa</h1>
+      <p>The worlds first automated CRM assistant.</p>
+      <p><a class="btn btn-primary btn-lg" role="button">START FREE TRIAL</a></p>
+    </div>
+
+    <div class="features-container"></div>
+  </script>
+
+  <script type="text/template" class="feature">
+    <hr class="feature-divider"></hr>
+    <div class="col-md-6 <%= id %>">
+      <div class="copy-wrapper">
+        <h2><%= header %></h2>
+        <p><%= subHeader %></p>
+      </div>
+    </div>
+    <div class="col-md-6 <%= id %>">
+      <img src="<%= picture %>">
+    </div>
+    <br />
+  </script>
+
+
+
+
   <!-- Template Views for Employees - need to fix this -->
   <script type="text/template" class="employees">
     <div class="row">
@@ -54,17 +83,6 @@
     </div>
   </script>
 
-
-  <!-- Template Views for Features -->
-  <script type="text/template" class="features">
-    <h2>Voxa Features</h2>
-    <div class="features-container"></div>
-  </script>
-
-  <script type="text/template" class="feature">
-    <span><%= header %></span><br />
-    <span><%= subHeader %></span>
-  </script>
 
 
 
