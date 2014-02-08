@@ -37,6 +37,20 @@ $(function() {
 				"twitterUrl": "https://twitter.com/davidcummings",
 				"blog": "http://davidcummings.org/"
 			}
+		],
+		features: [
+			{
+				"id": "1",
+				"header": "First Header",
+				"subHeader": "First SubHeader",
+				"picture": "img/david.png"
+			},
+			{
+				"id": "2",
+				"header": "Second Header",
+				"subHeader": "Second SubHeader",
+				"picture": "img/chris.png"
+			}
 		]
 	});
 });

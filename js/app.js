@@ -4,7 +4,10 @@ window.TeamManager = {
   Views: {},
 
 	start: function(data) {
-	  var employees = new TeamManager.Collections.Employees(data.employees);
+		var employees = new TeamManager.Collections.Employees(data.employees);
+		//var features = new TeamManager.Collections.Features(data.features);
+		console.log('break');
+
 	  var router = new TeamManager.Router();
 
 	  router.on('route:home', function() {
@@ -19,8 +22,14 @@ window.TeamManager = {
 	  	var employeesView = new TeamManager.Views.Employees({
 	  		collection: employees
 	  	});
-
 	  	$('.main-container').html(employeesView.render().$el);
+	  });
+
+	  router.on('route:showFeatures', function() {
+	  	var featuresView = new TeamManager.Views.Features({
+	  		collection: features
+	  	});
+  		$('.main-container').html(featuresView.render().$el);
 	  });
 
 	  Backbone.history.start();
