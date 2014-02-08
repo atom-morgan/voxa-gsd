@@ -4,9 +4,8 @@ window.TeamManager = {
   Views: {},
 
 	start: function(data) {
+		var features = new TeamManager.Collections.Features(data.features);
 		var employees = new TeamManager.Collections.Employees(data.employees);
-		//var features = new TeamManager.Collections.Features(data.features);
-		console.log('break');
 
 	  var router = new TeamManager.Router();
 

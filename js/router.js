@@ -1,6 +1,6 @@
 TeamManager.Router = Backbone.Router.extend({
 	routes: {
-		'': 'showEmployees',
+		'': 'showFeatures',
 		'team': 'showEmployees',
 		'features': 'showFeatures'
 	}
