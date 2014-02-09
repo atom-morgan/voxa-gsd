@@ -13,7 +13,7 @@ body {
 	height: 100%;
 	top: 0;
 	bottom: 0;
-	font-family: "Helvetica Neue";
+	font-family: "Roboto";
 }
 
 /* FEATURES VIEW */
@@ -33,12 +33,25 @@ body {
 	text-align: center;
 }
 
+.team-header span {
+	color: #F1C40F;
+}
+
 .feature-divider {
   margin: 0;
 }
 .row .feat-copy {
 	padding: 5% 0;
 }
+	.feat-1 h2 {
+		color: #3498DB;
+	}
+	.feat-2 h2{
+		color: #E67E22;
+	}
+	.feat-3 h2{
+		color: #F1C40F;
+	}
 
 .copy-wrapper {
 	padding: 5% 0;
@@ -143,10 +156,12 @@ body {
 }
 
 .emp-name {
+	font-weight: 500;
 	font-size: 1.3em;
 }
 
 .emp-title {
+	font-weight: 500;
 	font-size: 1.3em;
 }
 
@@ -159,6 +174,7 @@ body {
 }
 
 .emp-bio {
+	font-size: 14px;
 	padding-top: 3%;
 	width: 100%;
 }
