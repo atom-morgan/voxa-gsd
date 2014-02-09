@@ -9,7 +9,8 @@ $(function() {
 				"twitterId": "Johnson_Cook",
 				"twitterUrl": "https://twitter.com/Johnson_Cook",
 				"blog": "http://johnsoncook.com/",
-				"bio": "The definition of energetic, Johnson Cook is the fearless leader here at Voxa. As an active startup blogger at JohnsonCook.com, Johnson is currently a Partner of Atlanta Ventures, on the Board of Atlanta Tech Edge and GetNotes, Co-Founder and Managing Director of the Atlanta Tech Village, and President of the Entrepreneur’s Organization, Atlanta Chapter."
+				"bio": "The definition of energetic, Johnson Cook is the fearless leader here at Voxa. As an active startup blogger at JohnsonCook.com, Johnson is currently a Partner of Atlanta Ventures, on the Board of Atlanta Tech Edge and GetNotes, and Co-Founder and Managing Director of the Atlanta Tech Village."
+				//"bio": "The definition of energetic, Johnson Cook is the fearless leader here at Voxa. As an active startup blogger at JohnsonCook.com, Johnson is currently a Partner of Atlanta Ventures, on the Board of Atlanta Tech Edge and GetNotes, Co-Founder and Managing Director of the Atlanta Tech Village, and President of the Entrepreneur’s Organization, Atlanta Chapter."
 			},
 			{
 				"id": "2",

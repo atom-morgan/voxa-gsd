@@ -1,6 +1,6 @@
 TeamManager.Views.Employee = Backbone.View.extend({
 	tagName: 'div',
-	className: 'col-md-4 col-sm-6',
+	className: 'col-md-4 col-sm-6 employee-container',
 	template: _.template($('.employee').html()),
 
 	render: function() {
