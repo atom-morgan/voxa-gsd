@@ -5,12 +5,11 @@
 	-moz-box-sizing: border-box; 
 }
 
-html {
+html, body {
 	height: 100%;
 }
 
 body {
-	height: 100%;
 	top: 0;
 	bottom: 0;
 	font-family: "Roboto";
@@ -41,7 +40,8 @@ body {
 .feature-divider {
   margin: 0;
 }
-.row .feat-copy {
+
+.feat-copy {
 	padding: 5% 0;
 }
 	.feat-1 h2 {
@@ -54,9 +54,12 @@ body {
 		color: #F1C40F;
 	}
 
-.copy-wrapper {
-	padding: 5% 0;
-}
+	.feat-1, .feat-3 .copy-wrapper {
+		padding: 5% 0;	
+	}
+	.feat-2 .copy-wrapper {
+		padding: 10% 0;
+	}
 
 .copy-wrapper h2 {
 	font-size: 40px;
@@ -72,12 +75,11 @@ body {
 	margin-right: 5%;
 	margin-left: 5%;
 }
-	@media (max-width: 970px) {
+	@media (max-width: 980px) {
 	  .copy-wrapper h2 {
 	    font-size: 40px;
 	    text-align: center;
 	    margin-right: 0;
-	    padding-bottom: 3%;
 	  }
 	  .copy-wrapper p {
 	  	font-size: 20px;
@@ -91,14 +93,13 @@ body {
 	  .copy-wrapper h2 {
 	    font-size: 28px;
 	    text-align: center;
-	    margin: 0 2% 0 2%;
-	    padding-bottom: 3%;
+	    margin: 0 3% 0 3%;
 	  }
 	  .copy-wrapper p {
 	  	font-size: 20px;
 	  	text-align: center;
 	  	line-height: 1.4em;
-	  	margin: 0 2% 0 2%;
+	  	margin: 0 3% 0 3%;
 	  	padding-bottom: 3%;
 	  }
 	}
@@ -107,17 +108,52 @@ body {
 	padding: 5% 0;
 }
 
-.col-md-6 img {
+.feat-1 img {
 	max-width: 90%;
 	height: auto;
 	position: relative;
 	margin-left: 5%;
 }
+.feat-2 img {
+	max-width: 80%;
+	height: auto;
+	position: relative;
+	margin-left: 10%;
+}
+.feat-3 img {
+	max-width: 90%;
+	height: auto;
+	position: relative;
+	margin-left: 5%;
+}
+	@media (max-width: 980px) {
+		.feat-copy {
+			padding-bottom: 0;
+		}
+		.feat-copy .copy-wrapper {
+	   	padding: 0;
+	  }
+		.feat-img {
+	    padding-bottom: 5%;
+	  }
+	}
 	@media (max-width: 768px) {
-	  .col-md-6 img {
+		.feat-copy {
+			padding-top: 0;
+		}
+		.feat-img img {
+	  	padding-bottom: 3%;
+	  }
+	  .feat1, .feat2 img {
 	    margin-left: 5%;
 	  }
 	}
+	@media (max-width: 640px) {
+		.feat-img img {
+			padding-bottom: 8%;
+		}
+	}
+
 
 /* EMPLOYEE VIEW */     
 .team-header {
@@ -134,7 +170,7 @@ body {
 	height: 430px;
 }
 
-	@media (max-width: 970px) {
+	@media (max-width: 980px) {
 	  .employee-wrapper {
 	   	padding-left: 5%;
 	   	padding-bottom: 15%;
