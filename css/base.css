@@ -16,7 +16,7 @@ body {
 	font-family: "Roboto";
 }
 
-/* FEATURES VIEW */
+/* FEATURES HEADER */
 .logo {
 	text-align: center;
 }
@@ -37,6 +37,7 @@ body {
 	color: #F1C40F;
 }
 
+/* FEATURES SECTIONS */
 .feature-divider {
   margin: 0;
 }
