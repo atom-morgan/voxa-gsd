@@ -5,7 +5,12 @@
 	-moz-box-sizing: border-box; 
 }
 
+html {
+	height: 100%;
+}
+
 body {
+	height: 100%;
 	top: 0;
 	bottom: 0;
 	font-family: "Helvetica Neue";
@@ -19,12 +24,13 @@ body {
 	text-align: center;
 }
 
-.jumbotron p {
+.jumbotron-callout {
+	margin-top: 2%;
 	text-align: center;
 }
 
 .signup-button {
-	padding-top: 2%;
+	text-align: center;
 }
 
 .feature-divider {
@@ -159,14 +165,29 @@ body {
 
 
 /* FOOTER */
+.wrap {
+	min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -60px;
+}
+
 .push {
-	height: 30px;
+	height: 70px;
 }
 
 .footer {
 	height: 60px;
 	background-color: #F5F5F5;
-}
+}	
+	@media (max-width: 767px) {
+	  #footer {
+	    margin-left: -20px;
+	    margin-right: -20px;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	  }
+	}
 
 .voxa-footer {
 	margin: 20px 0px;
