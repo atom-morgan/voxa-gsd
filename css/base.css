@@ -19,9 +19,6 @@ body {
 .logo {
 	text-align: center;
 }
-.jumbotron h1 {
-	text-align: center;
-}
 
 .jumbotron-callout {
 	margin-top: 2%;
@@ -30,10 +27,6 @@ body {
 
 .signup-button {
 	text-align: center;
-}
-
-.team-header span {
-	color: #F1C40F;
 }
 
 /* FEATURES SECTIONS */
@@ -155,9 +148,13 @@ body {
 	}
 
 
-/* EMPLOYEE VIEW */     
+/* EMPLOYEE VIEW */ 
 .team-header {
 	text-align: center;
+}
+
+.team-header span {
+	color: #F1C40F;
 }
 
 .employees-container {
